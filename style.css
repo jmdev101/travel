@@ -1,0 +1,77 @@
+.gradient-bg {
+    background: linear-gradient(-45deg, #FAF1E4, #CEDEBD, #bdcede, #debdce);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .btn-outline-primary {
+    border-color: #435334;
+    color: #435334;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #9EB384;
+    border: none;
+  }
+
+  .btn-primary {
+    background-color: #435334;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #9EB384;
+  }
+
+  .nav-link {
+    color: black;
+  }
+
+  .nav-link:hover {
+    color: #9EB384;
+  }
+
+  .nav-link:focus {
+    color: #435334;
+  }
+
+  .btn-outline-secondary {
+    border-color: #435334;
+    color: #435334;
+  }
+
+  
+  .btn-outline-secondary:hover {
+    background-color: #9EB384;
+    border: none;
+  }
+
+  .text-bg {
+    background-color: #435334;
+  }
+
+ .border-custom {
+    border-color: #435334;
+  }
+
+.testimonials {
+    margin-top: 20px;
+  }
+
+  #testimonials-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
